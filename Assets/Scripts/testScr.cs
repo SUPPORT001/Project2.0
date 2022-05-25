@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class testScr : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
-        
+    
+    Debug.Log("swove sisi")
     }
 
     // Update is called once per frame
