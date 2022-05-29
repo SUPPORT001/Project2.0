@@ -1,0 +1,1442 @@
+fileFormatVersion: 2
+guid: becf603d2f3177d49a86f0f744bb48fb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 31
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bright-grass-tileset_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07e483b63793084cbace08e2b1e602a
+      internalID: 430696539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec99b4657afbe984bba02deb6229b4ae
+      internalID: 448668744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 298
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b645cca59f481f4d879c298ee7f7c8e
+      internalID: -583350828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 298
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b34e3c6c4bbd9a40b22314c10584c7c
+      internalID: -537118669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 298
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52732b297b7a1ba4ab43848312c756b5
+      internalID: -1968802507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_5
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e1466abeb92e941964fa1a263397e3
+      internalID: -1086677722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 301
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5462237e3383547b30fabecc7e78fc
+      internalID: 647440381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_7
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14225c8a68d31dd4d93c9c4aae96195f
+      internalID: -1493027776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 258
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fa702cebe6db44cbbf7cec146082fc
+      internalID: -537348293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 258
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f38641b99b03a441ad393485706449e
+      internalID: -536431714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 264
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7c11ceddc1e1b4094828caa367520f
+      internalID: -863261832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af9b9e3a2a5ac148a8db5bae5b87ed4
+      internalID: 630137071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 264
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3c98bf1fd304c4d99d0d5b55680f32
+      internalID: -220759115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c2997f5b1efa4694d73eae01f9bce
+      internalID: -162429901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_14
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 254
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6c666453666d744aa40b7d577cf7ca
+      internalID: 991138147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_15
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a290d566a7cd1c643a5d85c9102069aa
+      internalID: 570459294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cfbc2e40e3cf64688584cdb6d937fc
+      internalID: -2079143715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299bc33169919f5469daf12128c4401e
+      internalID: -1945717744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_18
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 198
+        width: 9
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ba23b3820533c40986df0b7ca3be72
+      internalID: -1009665565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 198
+        width: 9
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dfef4a2c1f9f84289450a0946be3ed
+      internalID: 2010642497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_20
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 216
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c67731b99aa894469e7ed9f2d194ec9
+      internalID: 85578756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 216
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c7b97ae47a44647ac1502e862a9784
+      internalID: 937001166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_22
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 216
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773b46af5f94b5a44b829cfd050a2afa
+      internalID: 1194134266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_23
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 194
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625d04e47a2c28f4495207f06bf7fcf9
+      internalID: -282173669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 194
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90f46523441b0e41a27bc290eb0bddf
+      internalID: 1915306432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 164
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd65699e1192754d90706d0d562aa00
+      internalID: 660040379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 164
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfb7bc4dd2df4c41babfa8174ad4443
+      internalID: 1214157459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 164
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ea11199854953409d55e9f283b5fd1
+      internalID: 1823151631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_28
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 194
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86fd150995ace6458b87850a43714ec
+      internalID: -228659013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 195
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2cac3d98c8c40419d84484d90c1eaa
+      internalID: 1341572439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_30
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 194
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0248e068d59d83b40a0b89067472c67f
+      internalID: -2121436830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 160
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe741325ac8d0634cb8b9880a59b7815
+      internalID: -1294481265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 160
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c27aa4635428841bd4d8d75cb178fa
+      internalID: -1136872946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 143
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9399d6de416b74b48a858906b6756902
+      internalID: -753638790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_34
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 143
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fb1f17e41993740bc1f08cc72f896d
+      internalID: 1661003468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 143
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f27751ea39daf47a21fda83582619e
+      internalID: 2126247174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_36
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3462a4b2674d7aa4ab58c1268c053f40
+      internalID: 920434547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_37
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb83470c50f374546a9133c43f2d6255
+      internalID: -336759650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_38
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8db33ce4c3e3d242806a39e81483b1c
+      internalID: 286870813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_39
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5e3e8f778532d4aaf658e22f487fbf
+      internalID: 1943398836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 139
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0617d6f3e5d76844bb7c45a71c1f5f2
+      internalID: -360260503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 139
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665e28151c35f1645b1e70ff6775ef9e
+      internalID: 554545768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 87
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4584812efdcd1743b8aecd438dedb23
+      internalID: 1053566492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 119
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8ab2b4986f42747b28d095a4be9392
+      internalID: -893793164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_44
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 87
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eeb0eb0dc4d1d44a42fd2fd22249a5
+      internalID: 24106854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_45
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bda5381ca7914949a6005963a0b5a4f
+      internalID: -434341047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_46
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2c2997acdc3ec46a2256c636ec38ea
+      internalID: 750256701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_47
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c191a06fcb27ba4b9e6e222708eb2b3
+      internalID: -1489284717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_48
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337722324c93a164390b19d867ad6dfb
+      internalID: -1565245918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c490c41c8961bda4296f82c9ae3c97e6
+      internalID: 17008708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_50
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 87
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acefe76d59a0f34189e0f5fe7066e08
+      internalID: -2007280675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 53
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940f6d0e8dccf54099bc2aa0ebd5deb
+      internalID: -299953253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_52
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c3f03a59e697148b95a8d76cab71c0
+      internalID: -1630431953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_53
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addb310fc87be0146b0560de8cc5fe93
+      internalID: -871362248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_54
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 53
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a7ad5636cbbf44916444bff17d990
+      internalID: -734495648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 31
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9b79832a502d347b1ea10f88460a28
+      internalID: 1175663812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_56
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 10
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afb022888b422249bb7500009b37440
+      internalID: 183797996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_57
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 10
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a0f5569b92ba6479bc5e51e4479853
+      internalID: 462457600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_58
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 31
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ebd0eb156b44241a7b15b57c302565
+      internalID: -611081902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bright-grass-tileset_59
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 10
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549ad8dd8488ea4285f0d960de219de
+      internalID: -1939968651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bright-grass-tileset_55: 1175663812
+      Bright-grass-tileset_42: 1053566492
+      Bright-grass-tileset_47: -1489284717
+      Bright-grass-tileset_46: 750256701
+      Bright-grass-tileset_25: 660040379
+      Bright-grass-tileset_48: -1565245918
+      Bright-grass-tileset_39: 1943398836
+      Bright-grass-tileset_16: -2079143715
+      Bright-grass-tileset_20: 85578756
+      Bright-grass-tileset_51: -299953253
+      Bright-grass-tileset_40: -360260503
+      Bright-grass-tileset_4: -1968802507
+      Bright-grass-tileset_11: 630137071
+      Bright-grass-tileset_19: 2010642497
+      Bright-grass-tileset_15: 570459294
+      Bright-grass-tileset_52: -1630431953
+      Bright-grass-tileset_45: -434341047
+      Bright-grass-tileset_23: -282173669
+      Bright-grass-tileset_38: 286870813
+      Bright-grass-tileset_9: -536431714
+      Bright-grass-tileset_31: -1294481265
+      Bright-grass-tileset_43: -893793164
+      Bright-grass-tileset_24: 1915306432
+      Bright-grass-tileset_26: 1214157459
+      Bright-grass-tileset_44: 24106854
+      Bright-grass-tileset_37: -336759650
+      Bright-grass-tileset_32: -1136872946
+      Bright-grass-tileset_2: -583350828
+      Bright-grass-tileset_28: -228659013
+      Bright-grass-tileset_50: -2007280675
+      Bright-grass-tileset_8: -537348293
+      Bright-grass-tileset_7: -1493027776
+      Bright-grass-tileset_41: 554545768
+      Bright-grass-tileset_22: 1194134266
+      Bright-grass-tileset_59: -1939968651
+      Bright-grass-tileset_49: 17008708
+      Bright-grass-tileset_53: -871362248
+      Bright-grass-tileset_0: 430696539
+      Bright-grass-tileset_33: -753638790
+      Bright-grass-tileset_6: 647440381
+      Bright-grass-tileset_18: -1009665565
+      Bright-grass-tileset_5: -1086677722
+      Bright-grass-tileset_21: 937001166
+      Bright-grass-tileset_56: 183797996
+      Bright-grass-tileset_1: 448668744
+      Bright-grass-tileset_36: 920434547
+      Bright-grass-tileset_34: 1661003468
+      Bright-grass-tileset_57: 462457600
+      Bright-grass-tileset_35: 2126247174
+      Bright-grass-tileset_10: -863261832
+      Bright-grass-tileset_12: -220759115
+      Bright-grass-tileset_29: 1341572439
+      Bright-grass-tileset_17: -1945717744
+      Bright-grass-tileset_30: -2121436830
+      Bright-grass-tileset_58: -611081902
+      Bright-grass-tileset_3: -537118669
+      Bright-grass-tileset_27: 1823151631
+      Bright-grass-tileset_54: -734495648
+      Bright-grass-tileset_14: 991138147
+      Bright-grass-tileset_13: -162429901
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
