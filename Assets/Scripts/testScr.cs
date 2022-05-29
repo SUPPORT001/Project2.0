@@ -9,8 +9,7 @@ public class testScr : MonoBehaviour
     
     void Start()
     {
-    
-    Debug.Log("swove sisi")
+
     }
 
     // Update is called once per frame
