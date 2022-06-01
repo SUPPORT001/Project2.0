@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(mousePosTile());
+        
         cameraControl();
     }
 

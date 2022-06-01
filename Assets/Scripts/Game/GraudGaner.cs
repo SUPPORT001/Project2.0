@@ -1,18 +1,20 @@
-using System.Collections;
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class GraudGaner : MonoBehaviour
 {
-    private Tilemap tilemap;
-    public List<TileBase> tiles = new List<TileBase>();
+    private Tilemap tilemapGr;
+    private Tilemap tilemapRo;
+    public List<TileBase> tilesGr = new List<TileBase>();
+    public List<TileBase> tilesRo = new List<TileBase>();
     public Vector2Int map;
+    public List<Vector3Int> roadVec = new List<Vector3Int>();
 
     void Awake()
     {
-        tilemap = GameObject.Find("Graund").GetComponent<Tilemap>();
+        tilemapGr = GameObject.Find("Graund").GetComponent<Tilemap>();
+        tilemapRo = GameObject.Find("Road").GetComponent<Tilemap>();
     }
 
     private void Start()
@@ -21,13 +23,62 @@ public class GraudGaner : MonoBehaviour
         {
             for (int X = 0; X < map.x + 1; X++)
             {
-                tilemap.SetTile(new Vector3Int(X, Y, 0), tiles[UnityEngine.Random.Range(0, tiles.Count)]);
-                print(X + " " + Y);
+                //Генерация земли
+                tilemapGr.SetTile(new Vector3Int(X, Y, 0), tilesGr[UnityEngine.Random.Range(0, tilesGr.Count)]);
+
+
 
             }
         }
+        RoadGener();
     }
-    // Update is called once per frame
+    void RoadGener()
+    {
+
+        Vector3Int randPos(Vector3Int vec, Vector3Int lastVec) //1 меняемый вектор 2 прошлый вектор
+        {
+            switch (UnityEngine.Random.Range(1, 4))
+            {
+                case 1:
+                    if (lastVec == new Vector3Int(vec.x - 1, vec.y, vec.z)) goto case 4;
+                    else vec.x--;
+                    
+                    break;
+                case 2:
+                    if (lastVec == new Vector3Int(vec.x + 1, vec.y, vec.z)) goto case 5;
+                    else vec.x++;
+                    break;
+                case 3:
+                    vec.y++;
+                    break;
+                case 4:
+                    if(UnityEngine.Random.Range(0,2) == 0) vec.x++;
+                    else vec.y++;
+                    break;
+                case 5:
+                    if (UnityEngine.Random.Range(0, 2) == 0) vec.x--;
+                    else vec.y++;
+                    break;
+            }
+            roadVec.Add(vec);
+            return vec;
+        }
+        Vector3Int setTileVec = new Vector3Int(map.x / 2, 0, -1);
+        tilemapRo.SetTile(setTileVec, tilesRo[5]); // начало пути
+        roadVec.Add(setTileVec);
+
+        int countTiles = 0;
+        while (setTileVec.y < map.y / 2)
+        {
+            countTiles++;
+            Debug.Log(countTiles);
+            tilemapRo.SetTile(randPos(setTileVec, roadVec[countTiles - 1]), tilesRo[Random.Range(0,tilesGr.Count)]);
+            //setTileVec[countTiles]= 
+            if (countTiles > 10000) return;
+        };
+
+        Debug.Log("hui");
+    }
     void Update()
     {
 

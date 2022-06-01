@@ -197,11 +197,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527237707}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.34735823, y: 0.81788003, z: -71.2962}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1949605837}
+  - {fileID: 1912445593}
   m_Father: {fileID: 1048049072}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -217,66 +218,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837a7f00d8fac8445aef179f9d52be8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiles:
-  - {fileID: 11400000, guid: 7f1b6d09271c1da4c9c9d63e3a166dbd, type: 2}
+  tilesGr:
+  - {fileID: 11400000, guid: f2ac9f4d1803d9143b74982e0697805c, type: 2}
+  - {fileID: 11400000, guid: 5871a2a65988fcc42aba367c05e89ea5, type: 2}
+  - {fileID: 11400000, guid: 5f3f0dfa83257114e86db243ef01f04c, type: 2}
   - {fileID: 11400000, guid: e66c4f0f29a9ba04c951ea918efe64b2, type: 2}
   - {fileID: 11400000, guid: 6246b09883cea7746ac8058d8a8c5827, type: 2}
   - {fileID: 11400000, guid: a2c800d666b839043a8e0c9467c14434, type: 2}
-  - {fileID: 11400000, guid: 5f3f0dfa83257114e86db243ef01f04c, type: 2}
   - {fileID: 11400000, guid: 7f1b6d09271c1da4c9c9d63e3a166dbd, type: 2}
-  - {fileID: 11400000, guid: 7f1b6d09271c1da4c9c9d63e3a166dbd, type: 2}
-  - {fileID: 11400000, guid: 7f1b6d09271c1da4c9c9d63e3a166dbd, type: 2}
-  - {fileID: 11400000, guid: 7f1b6d09271c1da4c9c9d63e3a166dbd, type: 2}
-  - {fileID: 11400000, guid: 5871a2a65988fcc42aba367c05e89ea5, type: 2}
-  - {fileID: 11400000, guid: f2ac9f4d1803d9143b74982e0697805c, type: 2}
-  map: {x: 30, y: 40}
---- !u!1 &668836383
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 668836384}
-  - component: {fileID: 668836386}
-  - component: {fileID: 668836385}
-  m_Layer: 0
-  m_Name: Road
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &668836384
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668836383}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.34735823, y: 0.81788003, z: -71.2962}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1912445593}
-  m_Father: {fileID: 1048049072}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &668836385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668836383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 837a7f00d8fac8445aef179f9d52be8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tiles:
+  tilesRo:
   - {fileID: 11400000, guid: ac1fb2c75b7ae6945a272b2e5e6a70a7, type: 2}
   - {fileID: 11400000, guid: 6ac7f8a87d98e774ba97898bd9edee85, type: 2}
   - {fileID: 11400000, guid: 887db29766f14c44b9734f5235abf72a, type: 2}
@@ -285,19 +235,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4ac154bbd19aa434796911d1588c409c, type: 2}
   - {fileID: 11400000, guid: 92dcf0e680b2fa54e8b9e687e2297561, type: 2}
   - {fileID: 11400000, guid: acf1362b34fb385489e6e51ebd8a283e, type: 2}
-  map: {x: 30, y: 40}
---- !u!156049354 &668836386
-Grid:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668836383}
-  m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
-  m_CellGap: {x: 0, y: 0, z: 0}
-  m_CellLayout: 0
-  m_CellSwizzle: 0
+  map: {x: 26, y: 30}
 --- !u!1 &863557650
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +368,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 527237709}
-  - {fileID: 668836384}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -645,7 +582,7 @@ GameObject:
   - component: {fileID: 1912445595}
   - component: {fileID: 1912445594}
   m_Layer: 0
-  m_Name: Graund
+  m_Name: Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -659,12 +596,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912445592}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 668836384}
-  m_RootOrder: 0
+  m_Father: {fileID: 527237709}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1912445594
 TilemapRenderer:
