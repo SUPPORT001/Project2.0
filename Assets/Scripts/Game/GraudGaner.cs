@@ -35,8 +35,9 @@ public class GraudGaner : MonoBehaviour
     void RoadGener()
     {
 
-        Vector3Int randPos(Vector3Int vec, Vector3Int lastVec) //1 меняемый вектор 2 прошлый вектор
+        Vector3Int randPos( Vector3Int lastVec) //1 меняемый вектор 2 прошлый вектор
         {
+            Vector3Int vec = lastVec;
             switch (UnityEngine.Random.Range(1, 4))
             {
                 case 1:
@@ -60,7 +61,7 @@ public class GraudGaner : MonoBehaviour
                     else vec.y++;
                     break;
             }
-            roadVec.Add(vec);
+            
             return vec;
         }
         Vector3Int setTileVec = new Vector3Int(map.x / 2, 0, -1);
@@ -68,16 +69,22 @@ public class GraudGaner : MonoBehaviour
         roadVec.Add(setTileVec);
 
         int countTiles = 0;
-        while (setTileVec.y < map.y / 2)
+        while (roadVec[countTiles].y < map.y / 2)
         {
             countTiles++;
-            Debug.Log(countTiles);
-            tilemapRo.SetTile(randPos(setTileVec, roadVec[countTiles - 1]), tilesRo[Random.Range(0,tilesGr.Count)]);
+            roadVec.Add(randPos(roadVec[countTiles - 1])) ;
+            
+            Debug.Log(roadVec[countTiles] + " " + countTiles);
+            //tilemapRo.SetTile(randPos(setTileVec, roadVec[countTiles - 1]), tilesRo[Random.Range(0,tilesGr.Count)]);
             //setTileVec[countTiles]= 
             if (countTiles > 10000) return;
         };
 
-        Debug.Log("hui");
+        for(int i = 0; i < roadVec.Count; i++)
+        {
+            tilemapRo.SetTile(roadVec[i], tilesRo[UnityEngine.Random.Range(0,8)]);
+        }
+      
     }
     void Update()
     {
