@@ -31,6 +31,8 @@ public class Towers : MonoBehaviour
     }
     public void shooseTowerStr(string str) //Для кнопок
     {
+        isTowerVisible = true;
+        visibleTower = null;
         activeTower = str;
         isActive = true;
         
@@ -40,6 +42,7 @@ public class Towers : MonoBehaviour
         switch (activeTower)
         {
             case "knight":
+               
                 spawnTower(tower[0], 100);
                 break;
             case "arches":
@@ -68,6 +71,7 @@ public class Towers : MonoBehaviour
         if (Input.GetMouseButtonUp(0) && Score.moneyP1 >= price )
         {
             Instantiate(GO, GetComponentInParent<Player>().mousePosTile(), new Quaternion(0, 0, 0, 0), towersGO.GetComponent<Transform>()); //Сделать проверку на препятствие
+            
         }
         else if (Input.GetMouseButtonUp(1))
         {
