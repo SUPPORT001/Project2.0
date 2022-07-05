@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Photon.Pun;
 
 public class Player : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class Player : MonoBehaviour
     private Tilemap tilemap;
     private float camControl;
 
-
+    private PhotonView photonView;
 
 
     void Awake()
@@ -28,6 +29,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        photonView = GetComponent<PhotonView>();
         startCamPos();///!!!!!!!!!!!!!
     }
 
@@ -42,6 +44,7 @@ public class Player : MonoBehaviour
     }
     void cameraControl()
     {
+        if (!photonView.IsMine) return;
         camControl += Input.GetAxis("Horizontal")*0.03f;
         if(camControl <0)
             camControl = 0;
