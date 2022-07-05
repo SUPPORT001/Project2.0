@@ -45,11 +45,11 @@ public class Player : MonoBehaviour
         camControl += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
         camGame.transform.position = Vector3.Lerp(camGame.transform.position, new Vector3(camControl.x * 0.03f, camControl.y * 0.03f, -10), Time.deltaTime * 15);
     }
-    public Vector3Int mousePosTile()
+    public Vector3 mousePosTile()
     {
         Vector3 camWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var cellPosition = tilemap.WorldToCell(camWorldPosition);
-        return cellPosition;
+        return new Vector3(cellPosition.x + 0.5f, cellPosition.y + 0.5f, cellPosition.z); ;
     }
 
 

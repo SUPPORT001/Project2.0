@@ -686,6 +686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 481284116}
   - component: {fileID: 481284117}
+  - component: {fileID: 481284118}
   m_Layer: 5
   m_Name: gameEntities
   m_TagString: Untagged
@@ -739,6 +740,32 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!61 &481284118
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481284115}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 31.931763, y: 37.69723}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 522.6336, y: 62.790794}
+  m_EdgeRadius: 0
 --- !u!1 &511194318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1516,6 @@ GameObject:
   - component: {fileID: 863557653}
   - component: {fileID: 863557652}
   - component: {fileID: 863557651}
-  - component: {fileID: 863557655}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1581,20 +1607,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &863557655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863557650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2901422c8065e89469df1244bd276e97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moneyP1: 500
-  moneyP2: 500
 --- !u!1 &954203396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,9 +1692,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048049077}
+  - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
   - component: {fileID: 1048049074}
-  - component: {fileID: 1048049075}
   - component: {fileID: 1048049076}
   m_Layer: 0
   m_Name: Game
@@ -1719,20 +1731,6 @@ MonoBehaviour:
   - {fileID: 2884573254706267037, guid: 9744b2c913e828a43b60a75373895077, type: 3}
   - {fileID: 6184018504845500629, guid: 96fd3d8ddab4b9b40ab6509bd2f4732c, type: 3}
   activeTower: 
---- !u!114 &1048049075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048049071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2901422c8065e89469df1244bd276e97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moneyP1: 500
-  moneyP2: 500
 --- !u!114 &1048049076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,6 +1771,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1048049078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048049071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff3be6466134654caadd8227efc7e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1099803738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,9 +2544,10 @@ GameObject:
   - component: {fileID: 1912445593}
   - component: {fileID: 1912445595}
   - component: {fileID: 1912445594}
+  - component: {fileID: 1912445596}
   m_Layer: 0
   m_Name: Road
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2667,6 +2678,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1912445596
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912445592}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1949605836
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,7 +2708,7 @@ GameObject:
   - component: {fileID: 1949605841}
   m_Layer: 0
   m_Name: Graund
-  m_TagString: Untagged
+  m_TagString: Graund
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
