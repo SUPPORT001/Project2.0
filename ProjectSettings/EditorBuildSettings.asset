@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: fa0c29479041bad468882f9284182385
+  - enabled: 1
+    path: Assets/Scenes/Levels/green field.unity
+    guid: 9dff516e74366594d88f603e3672788f
   m_configObjects: {}

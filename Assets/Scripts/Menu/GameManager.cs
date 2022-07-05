@@ -7,9 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
+    public GameObject PlayerPrefab;
+
     private void Start()
     {
-        
+        Debug.Log("Спавн игрока");
+        PhotonNetwork.Instantiate(PlayerPrefab.name, Vector3.zero, Quaternion.identity);
     }
 
     private void Update()
