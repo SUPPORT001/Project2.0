@@ -10,8 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3072784589493027448}
   - component: {fileID: 3072784589493027451}
-  - component: {fileID: -7664113007131869693}
-  - component: {fileID: -6189361233443181630}
+  - component: {fileID: 7976951353585958543}
+  - component: {fileID: 8764074860102617432}
+  - component: {fileID: 6596773340982788352}
+  - component: {fileID: -617772819310974446}
   m_Layer: 0
   m_Name: rex
   m_TagString: Untagged
@@ -86,7 +88,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7664113007131869693
+--- !u!114 &7976951353585958543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072784589493027450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: -617772819310974446}
+  - {fileID: 8764074860102617432}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &8764074860102617432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072784589493027450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
+--- !u!114 &6596773340982788352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,8 +148,7 @@ MonoBehaviour:
   distant: 0
   typeAttack: 
   moneyCost: 0
-  side: 0
---- !u!114 &-6189361233443181630
+--- !u!114 &-617772819310974446
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,15 +157,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3072784589493027450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6287465500497d042814046b98f1515d, type: 3}
+  m_Script: {fileID: 11500000, guid: 789218df1fb398244b50b0afa004d570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  HP: 0
-  speed: 0
-  ATK: 0
-  speedATK: 0
-  distant: 0
-  typeAttack: 
-  moneyCost: 0
-  side: 0
