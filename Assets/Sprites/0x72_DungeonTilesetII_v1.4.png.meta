@@ -1157,10 +1157,10 @@ TextureImporter:
       name: 0x72_DungeonTilesetII_v1.4_50
       rect:
         serializedVersion: 2
-        x: 128
-        y: 416
-        width: 15
-        height: 20
+        x: 120
+        y: 410
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2544,9 +2544,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 130
-        y: 320
+        y: 312
         width: 14
-        height: 19
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2586,9 +2586,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 161
-        y: 320
+        y: 312
         width: 16
-        height: 18
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2691,9 +2691,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 320
+        y: 316
         width: 16
-        height: 19
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
