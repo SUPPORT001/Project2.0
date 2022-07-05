@@ -21,9 +21,7 @@ public class Persons : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.R)) {
-            side = !side;
-        Debug.Log("acho");}
+       
     }
     public void shoosePersonStr(string str) //Для кнопок
     {
