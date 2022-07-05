@@ -13,9 +13,9 @@ public class Crip : MonoBehaviour
         public float distant;
         public string typeAttack;
         public int moneyCost;
-        public bool side;
+        public int side;
 
-
+    
     private void Start()
     {
         switch (transform.name )

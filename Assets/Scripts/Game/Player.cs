@@ -13,12 +13,8 @@ public class Player : MonoBehaviour
 
     void Awake()
     {
-
         tilemap = GameObject.Find("Graund").GetComponent<Tilemap>();
         camGame = GameObject.Find("Main Camera");
-
-
-
     }
 
     void Update()

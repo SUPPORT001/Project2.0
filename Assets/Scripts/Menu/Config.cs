@@ -5,6 +5,7 @@ using UnityEngine;
 static class Config : object
 {
     public static string myName = "";
+    public static int indexPlayer;
 
     public static string pathGetUsers = "http://support001.ru/Project2.0/Users/getUsers.php";
     public static string pathLoginUsers = "http://support001.ru/Project2.0/Users/login.php";

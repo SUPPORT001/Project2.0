@@ -11,8 +11,9 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     private void Start()
     {
-        Debug.Log("Спавн игрока");
-        PhotonNetwork.Instantiate(PlayerPrefab.name, Vector3.zero, Quaternion.identity);
+        GameObject go = PhotonNetwork.Instantiate(PlayerPrefab.name, Vector3.zero, Quaternion.identity);
+        Config.indexPlayer = PhotonNetwork.CountOfRooms;
+        go.name = "Player: " + Config.myName;
     }
 
     private void Update()

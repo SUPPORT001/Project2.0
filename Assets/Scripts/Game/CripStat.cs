@@ -1,6 +1,6 @@
 using UnityEngine;
 
-class CripStat 
+class CripStat
 {
     public class Knight
     {
