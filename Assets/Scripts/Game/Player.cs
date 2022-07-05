@@ -6,8 +6,8 @@ public class Player : MonoBehaviour
     private GameObject camGame;
     private Tilemap tilemap;
     private Vector3 camControl;
-    
-    
+
+
 
 
     void Awake()
@@ -15,14 +15,13 @@ public class Player : MonoBehaviour
 
         tilemap = GameObject.Find("Graund").GetComponent<Tilemap>();
         camGame = GameObject.Find("Main Camera");
-       
-        
+
+
 
     }
-    
+
     void Update()
     {
-
         cameraControl();///!!!!!!!!!!!!!
     }
 
@@ -39,7 +38,7 @@ public class Player : MonoBehaviour
         camGame.transform.position = new Vector3(camGame.transform.position.x, camGame.transform.position.y, -10);
         camControl = camGame.transform.position;
         Debug.Log(camGame.transform.position);
-        
+
     }
     void cameraControl()
     {
@@ -52,4 +51,6 @@ public class Player : MonoBehaviour
         var cellPosition = tilemap.WorldToCell(camWorldPosition);
         return cellPosition;
     }
+
+
 }

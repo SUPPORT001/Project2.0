@@ -54,26 +54,26 @@ public class Towers : MonoBehaviour
     }
     void spawnTower(GameObject GO, ulong price)
     {
-        if (isTowerVisible)
+        if (isTowerVisible) //Появлевние объекта (Превью постройки)
         {
             visibleTower = Instantiate(GO, GetComponentInParent<Player>().mousePosTile(), new Quaternion(0, 0, 0, 0), towersGO.GetComponent<Transform>());
             isTowerVisible = false;
-            Debug.Log("Робит");
+            
         }
         else
-        {
+        { //Следование за курсором(превью)
             Vector3 camWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             var cellPosition = tilemap.WorldToCell(camWorldPosition);
             visibleTower.transform.position = cellPosition;
 
         }
         
-        if (Input.GetMouseButtonUp(0) && Score.moneyP1 >= price )
+        if (Input.GetMouseButtonUp(0) && Score.moneyP1 >= price ) //Условие если мышь отжата и денег достаточно
         {
             Instantiate(GO, GetComponentInParent<Player>().mousePosTile(), new Quaternion(0, 0, 0, 0), towersGO.GetComponent<Transform>()); //Сделать проверку на препятствие
             
         }
-        else if (Input.GetMouseButtonUp(1))
+        else if (Input.GetMouseButtonUp(1))//Отмена 
         {
             Destroy(visibleTower);
             isTowerVisible = true;
