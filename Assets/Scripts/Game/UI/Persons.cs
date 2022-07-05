@@ -31,7 +31,7 @@ public class Persons : MonoBehaviour
         {
             case "knight":
                 CripStat.Knight knight = new CripStat.Knight();
-              
+
 
                 spawnPerson(persons[0], knight.moneyCost, Config.indexPlayer);
                 break;
@@ -63,7 +63,11 @@ public class Persons : MonoBehaviour
             {
                 GO2 = Instantiate(GO, spawner[0].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
             }
-            else GO2 = Instantiate(GO, spawner[1].transform.position, Quaternion.Inverse(Quaternion.identity), personsGO.GetComponent<Transform>());
+            else
+            {
+                GO2 = Instantiate(GO, spawner[1].transform.position, Quaternion.Inverse(Quaternion.identity), personsGO.GetComponent<Transform>());
+                GO2.GetComponent<SpriteRenderer>().flipX = true;
+            }
             GO2.AddComponent<Crip>();
             GO2.GetComponent<Crip>().side = Config.indexPlayer;
         }
