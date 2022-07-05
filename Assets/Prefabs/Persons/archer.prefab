@@ -10,21 +10,18 @@ GameObject:
   m_Component:
   - component: {fileID: 295416814371341575}
   - component: {fileID: 295416814371341574}
-<<<<<<< HEAD
-  - component: {fileID: 7560699058732906755}
-  - component: {fileID: 3182360339304232169}
-  - component: {fileID: -9031504639886886991}
-  - component: {fileID: -1954418764258972104}
-=======
   - component: {fileID: 532348808361306186}
 <<<<<<< HEAD
   - component: {fileID: 742826989}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> 961e8ac753bddde98fdc261530ff31994b623ecd
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 961e8ac (comichy)
+=======
+>>>>>>> parent of 3d2f319 (andI)
   m_Layer: 0
   m_Name: archer
   m_TagString: Untagged
@@ -99,47 +96,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7560699058732906755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295416814371341573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents:
-  - {fileID: 3182360339304232169}
-  - {fileID: -1954418764258972104}
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
---- !u!114 &3182360339304232169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295416814371341573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
---- !u!114 &-9031504639886886991
+--- !u!114 &532348808361306186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,34 +116,17 @@ MonoBehaviour:
   distant: 0
   typeAttack: 
   moneyCost: 0
-<<<<<<< HEAD
---- !u!114 &-1954418764258972104
-MonoBehaviour:
-=======
   side: 0
 <<<<<<< HEAD
 --- !u!95 &742826989
 Animator:
   serializedVersion: 4
-<<<<<<< Updated upstream
-=======
->>>>>>> 961e8ac753bddde98fdc261530ff31994b623ecd
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295416814371341573}
   m_Enabled: 1
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 789218df1fb398244b50b0afa004d570, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-=======
->>>>>>> Stashed changes
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2aed257d322254b4aae7510c3a69b0da, type: 2}
   m_CullingMode: 0
@@ -198,9 +138,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> 961e8ac753bddde98fdc261530ff31994b623ecd
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 961e8ac (comichy)
+=======
+>>>>>>> parent of 3d2f319 (andI)
