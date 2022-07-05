@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7647144339798900058}
   - component: {fileID: 8488896170064786498}
+  - component: {fileID: -7387882765289748099}
   m_Layer: 0
   m_Name: tank
   m_TagString: Untagged
@@ -85,6 +86,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-7387882765289748099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047239592058790590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6287465500497d042814046b98f1515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  HP: 0
+  speed: 0
+  ATK: 0
+  speedATK: 0
+  distant: 0
+  typeAttack: 
+  moneyCost: 0
 --- !u!1 &5026710914437264382
 GameObject:
   m_ObjectHideFlags: 0
