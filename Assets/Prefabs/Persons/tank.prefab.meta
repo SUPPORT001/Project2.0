@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Persons/tank.prefab.meta
 guid: c3976a781a415ca43b6bccc5349e4260
+========
+guid: 6d50ff5ce7fa02b4dad7377bb3389178
+>>>>>>>> 403af28866c3da32e9d088d11309bb049a2bb371:Assets/Prefabs/Persons/archer.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
