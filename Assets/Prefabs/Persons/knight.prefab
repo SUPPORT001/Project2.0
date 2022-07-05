@@ -115,6 +115,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 77d9d33 (2)
 <<<<<<< Updated upstream
@@ -137,6 +138,9 @@ GameObject:
 >>>>>>> parent of 3d2f319 (andI)
 =======
 >>>>>>> parent of 77d9d33 (2)
+=======
+  - component: {fileID: 4877431005662880829}
+>>>>>>> parent of 3d2f319 (andI)
   m_Layer: 0
   m_Name: knight
   m_TagString: Untagged
@@ -215,9 +219,12 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 77d9d33 (2)
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 3d2f319 (andI)
 =======
 >>>>>>> parent of 3d2f319 (andI)
 --- !u!95 &4877431005662880829
@@ -241,6 +248,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> 961e8ac753bddde98fdc261530ff31994b623ecd
@@ -252,3 +260,5 @@ Animator:
 >>>>>>> parent of 3d2f319 (andI)
 =======
 >>>>>>> parent of 77d9d33 (2)
+=======
+>>>>>>> parent of 3d2f319 (andI)
