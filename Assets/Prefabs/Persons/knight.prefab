@@ -116,6 +116,9 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 77d9d33 (2)
 =======
 >>>>>>> parent of 77d9d33 (2)
 <<<<<<< Updated upstream
@@ -131,6 +134,7 @@ GameObject:
 >>>>>>> 961e8ac753bddde98fdc261530ff31994b623ecd
 >>>>>>> Stashed changes
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 961e8ac (comichy)
 =======
@@ -141,6 +145,8 @@ GameObject:
 =======
   - component: {fileID: 4877431005662880829}
 >>>>>>> parent of 3d2f319 (andI)
+=======
+>>>>>>> parent of 77d9d33 (2)
   m_Layer: 0
   m_Name: knight
   m_TagString: Untagged
@@ -220,6 +226,9 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 77d9d33 (2)
 =======
 >>>>>>> parent of 77d9d33 (2)
 <<<<<<< Updated upstream
@@ -254,6 +263,7 @@ Animator:
 >>>>>>> 961e8ac753bddde98fdc261530ff31994b623ecd
 >>>>>>> Stashed changes
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 961e8ac (comichy)
 =======
@@ -262,3 +272,5 @@ Animator:
 >>>>>>> parent of 77d9d33 (2)
 =======
 >>>>>>> parent of 3d2f319 (andI)
+=======
+>>>>>>> parent of 77d9d33 (2)
