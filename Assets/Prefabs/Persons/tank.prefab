@@ -29,8 +29,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7912573609241743324}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -107,6 +106,7 @@ MonoBehaviour:
   typeAttack: 
   moneyCost: 0
   side: 0
+<<<<<<< HEAD
 --- !u!1 &2733262659536339806
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,3 +223,5 @@ SpriteRenderer:
 >>>>>>> parent of fadfdf3 (3)
 =======
 >>>>>>> parent of 3d2f319 (andI)
+=======
+>>>>>>> parent of 961e8ac (comichy)

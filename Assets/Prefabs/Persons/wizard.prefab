@@ -30,8 +30,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 918128300051447593}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -76,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1367907774, guid: 35f636582cbe8ef48a8cfba8c14018f4, type: 3}
+  m_Sprite: {fileID: -350885757, guid: 35f636582cbe8ef48a8cfba8c14018f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -129,6 +128,7 @@ MonoBehaviour:
   typeAttack: 
   moneyCost: 0
   side: 0
+<<<<<<< HEAD
 --- !u!1 &4716508155620341740
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,3 +245,5 @@ SpriteRenderer:
 >>>>>>> parent of fadfdf3 (3)
 =======
 >>>>>>> parent of 3d2f319 (andI)
+=======
+>>>>>>> parent of 961e8ac (comichy)
