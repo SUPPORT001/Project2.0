@@ -10,10 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1364633056820979215}
   - component: {fileID: 1364633056820979208}
-  - component: {fileID: -7728049663740052782}
-  - component: {fileID: 1708335901649735400}
-  - component: {fileID: 683916406590532927}
-  - component: {fileID: 7158340108449006274}
+  - component: {fileID: -779694095870799240}
+  - component: {fileID: 8731269291370679116}
   m_Layer: 0
   m_Name: wizard
   m_TagString: Untagged
@@ -89,47 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7728049663740052782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364633056820979209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents:
-  - {fileID: 7158340108449006274}
-  - {fileID: 1708335901649735400}
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
---- !u!114 &1708335901649735400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364633056820979209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
---- !u!114 &683916406590532927
+--- !u!114 &-779694095870799240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,7 +107,8 @@ MonoBehaviour:
   distant: 0
   typeAttack: 
   moneyCost: 0
---- !u!114 &7158340108449006274
+  side: 0
+--- !u!114 &8731269291370679116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,11 +117,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1364633056820979209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 789218df1fb398244b50b0afa004d570, type: 3}
+  m_Script: {fileID: 11500000, guid: 6287465500497d042814046b98f1515d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
   name: 
   HP: 0
   speed: 0
@@ -259,6 +216,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of fadfdf3 (3)
 <<<<<<< Updated upstream
@@ -285,3 +243,5 @@ SpriteRenderer:
 >>>>>>> parent of 77d9d33 (2)
 =======
 >>>>>>> parent of fadfdf3 (3)
+=======
+>>>>>>> parent of 3d2f319 (andI)

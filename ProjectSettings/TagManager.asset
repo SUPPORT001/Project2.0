@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Road
   - Graund
-  - BlueCrip
-  - RedCrip
   layers:
   - Default
   - TransparentFX
