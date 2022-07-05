@@ -9,17 +9,14 @@ public class Login : MonoBehaviour
 {
     public InputField login_text;
     public InputField password_text;
-    [SerializeField] private GameObject AthorizationGO;
-    [SerializeField] private GameObject MenuGO;
-    [SerializeField] private Text nameTxt;
 
     private string logtxt = "";
     private string pastxt = "";
 
-    private void Awake()
+    private void Start()
     {
-        AthorizationGO.SetActive(true);
-        MenuGO.SetActive(false);
+        login_text.text = "";
+        password_text.text = "";
     }
 
     public bool Check()
@@ -58,11 +55,7 @@ public class Login : MonoBehaviour
     }
     public void exit_click()
     {
-        AthorizationGO.SetActive(true);
-        MenuGO.SetActive(false);
-        nameTxt.text = "";
-        login_text.text = "";
-        password_text.text = "";
+        Application.Quit();
     }
 
     //IEnumerator getUsers()
@@ -124,9 +117,8 @@ public class Login : MonoBehaviour
     }
     IEnumerator Authorization(string name)
     {
-        AthorizationGO.SetActive(false);
-        MenuGO.SetActive(true);
-        nameTxt.text = name;
+        Config.myName = login_text.text;
+        SceneManager.LoadScene("Lobby");
         yield return null;
     }
 }
