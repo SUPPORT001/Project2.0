@@ -7,16 +7,16 @@ public class RayCast2d : MonoBehaviour
   
     void Update()
     {
-        Debug.Log(Hit());       
+      
     }
-    public Vector3 Hit()
+    public string Hit()
     {
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         if (hit.collider != null)
         {
-            return hit.collider.GetComponent<RectTransform>().sizeDelta;
+            return hit.collider.gameObject.tag;
 
         }
-        return Vector3.zero;
+        return null;
     }
 }

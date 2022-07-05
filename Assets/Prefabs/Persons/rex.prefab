@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3072784589493027448}
   - component: {fileID: 3072784589493027451}
+  - component: {fileID: -7664113007131869693}
+  - component: {fileID: -6189361233443181630}
   m_Layer: 0
   m_Name: rex
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3072784589493027450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,3 +86,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-7664113007131869693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072784589493027450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6287465500497d042814046b98f1515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  HP: 0
+  speed: 0
+  ATK: 0
+  speedATK: 0
+  distant: 0
+  typeAttack: 
+  moneyCost: 0
+  side: 0
+--- !u!114 &-6189361233443181630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072784589493027450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6287465500497d042814046b98f1515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  HP: 0
+  speed: 0
+  ATK: 0
+  speedATK: 0
+  distant: 0
+  typeAttack: 
+  moneyCost: 0
+  side: 0
