@@ -11,13 +11,6 @@ public class Persons : MonoBehaviour
 
     void Start()
     {
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> d7c4113cb780066d2ce55e9622877750b0bd2eba
         personsGO = GameObject.Find("Persons");
     }
 
@@ -38,13 +31,7 @@ public class Persons : MonoBehaviour
         {
             case "knight":
                 CripStat.Knight knight = new CripStat.Knight();
-<<<<<<< HEAD
                 spawnPerson(persons[0], knight.moneyCost, Config.indexPlayer);
-                
-=======
-                spawnPerson(persons[0], knight.moneyCost, side);
-
->>>>>>> d7c4113cb780066d2ce55e9622877750b0bd2eba
                 break;
             case "archer":
                 CripStat.Archer archer = new CripStat.Archer();
@@ -60,13 +47,7 @@ public class Persons : MonoBehaviour
                 break;
             case "Tank":
                 CripStat.Tank tank = new CripStat.Tank();
-<<<<<<< HEAD
                 spawnPerson(persons[4], tank.moneyCost, Config.indexPlayer);
-              
-=======
-                spawnPerson(persons[4], tank.moneyCost, side);
-
->>>>>>> d7c4113cb780066d2ce55e9622877750b0bd2eba
                 break;
         }
     }
@@ -78,26 +59,11 @@ public class Persons : MonoBehaviour
             GameObject GO2 = new GameObject();
             if (Config.indexPlayer == 0)
             {
-<<<<<<< HEAD
-                 GO2 = Instantiate(GO, spawner[0].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
-
+                GO2 = Instantiate(GO, spawner[0].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
             }
-            else  GO2 = Instantiate(GO, spawner[1].transform.position, Quaternion.Inverse(Quaternion.identity), personsGO.GetComponent<Transform>());
-=======
-                GO2 = Instantiate(GO, spawner[0].transform.position, new Quaternion(0, 0, 0, 0), personsGO.GetComponent<Transform>());
-
-            }
-            else
-            {
-                GO2 = Instantiate(GO, spawner[1].transform.position, new Quaternion(0, 0, 0, 0), personsGO.GetComponent<Transform>());
->>>>>>> d7c4113cb780066d2ce55e9622877750b0bd2eba
-                GO2.name = GOname;
-                GO2.GetComponent<SpriteRenderer>().flipX = true;
-            }
+            else GO2 = Instantiate(GO, spawner[1].transform.position, Quaternion.Inverse(Quaternion.identity), personsGO.GetComponent<Transform>());
             GO2.AddComponent<Crip>();
             GO2.GetComponent<Crip>().side = Config.indexPlayer;
         }
     }
-
-
 }
