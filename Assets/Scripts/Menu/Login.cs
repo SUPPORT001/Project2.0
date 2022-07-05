@@ -9,22 +9,30 @@ public class Login : MonoBehaviour
 {
     public InputField login_text;
     public InputField password_text;
+    [SerializeField] private GameObject AthorizationGO;
+    [SerializeField] private GameObject MenuGO;
+    [SerializeField] private Text nameTxt;
 
-    public List<Users> users = new List<Users>();
+    private string logtxt = "";
+    private string pastxt = "";
 
-    [SerializeField] private string path_getUsers;
+    private void Awake()
+    {
+        AthorizationGO.SetActive(true);
+        MenuGO.SetActive(false);
+    }
 
     public bool Check()
     {
-        string log = login_text.GetComponent<InputField>().text;
-        string pas = password_text.GetComponent<InputField>().text;
+        logtxt = login_text.GetComponent<InputField>().text;
+        pastxt = password_text.GetComponent<InputField>().text;
 
-        if(log.Length == 0)
+        if(logtxt.Length == 0)
         {
             Debug.LogError("Поле <Логин> не должно быть пустым!");
             return false;
         }
-        if(pas.Length == 0)
+        if(pastxt.Length == 0)
         {
             Debug.LogError("Поле <Пароль> не должно быть пустым.");
             return false;
@@ -32,61 +40,99 @@ public class Login : MonoBehaviour
         return true;
     }
 
-    public void getUsers_click()
+    public void login_click()
     {
-        StartCoroutine(getUsers());
+        if(Check())
+        {
+            //StartCoroutine(getUsers());
+            StartCoroutine(loginUsers());
+            //StartCoroutine(createjson());
+        }
+    }
+    public void registration_click()
+    {
+        if(Check())
+        {
+            StartCoroutine(registerUsers());
+        }
+    }
+    public void exit_click()
+    {
+        AthorizationGO.SetActive(true);
+        MenuGO.SetActive(false);
+        nameTxt.text = "";
+        login_text.text = "";
+        password_text.text = "";
     }
 
-    IEnumerator getUsers()
+    //IEnumerator getUsers()
+    //{
+    //    //WWWForm form = new WWWForm();
+    //    using (UnityWebRequest www = UnityWebRequest.Get(Config.pathGetUsers))
+    //    {
+    //        yield return www.SendWebRequest();
+    //        string json = www.downloadHandler.text;
+    //        Json _json = new Json();
+    //        _json = JsonUtility.FromJson<Json>(json);
+    //        Debug.Log("json = " + json);
+    //        Debug.Log(_json.users);
+    //    }
+    //}
+    IEnumerator loginUsers()
     {
-        //WWWForm form = new WWWForm();
-        using (UnityWebRequest www = UnityWebRequest.Get(path_getUsers))
+        string path = Config.pathLoginUsers + "?";
+        path += "name=" + logtxt;
+        path += "&";
+        path += "password=" + pastxt;
+        using (UnityWebRequest www = UnityWebRequest.Get(path))
         {
             yield return www.SendWebRequest();
-            if (UnityWebRequest.Result.ConnectionError == UnityWebRequest.Result.ProtocolError)
+            LoginUser log = JsonUtility.FromJson<LoginUser>(www.downloadHandler.text);
+            if(log.code == 200)
             {
-                
+                Debug.Log(Config.code200);
+                StartCoroutine(Authorization(logtxt));
             }
-            else
+            else if(log.code == 404)
             {
-                Users unit = JsonUtility.FromJson<Users>(www.downloadHandler.text);
-                Debug.Log(JsonUtility.FromJson<Users>(www.downloadHandler.text));
-                //Debug.Log("id: " unit.id);
+                Debug.Log(Config.code404);
             }
-            
         }
-        //yield return form;
     }
-
-    
-
-    public void Click_registration()
+    IEnumerator registerUsers()
     {
-
+        string path = Config.pathRegistrationUsers + "?";
+        path += "name=" + logtxt + "&" + "password=" + pastxt + "&" + "admin=0";
+        using (UnityWebRequest www = UnityWebRequest.Get(path))
+        {
+            yield return www.SendWebRequest();
+            LoginUser reg = JsonUtility.FromJson<LoginUser>(www.downloadHandler.text);
+            if(reg.code == 200)
+            {
+                Debug.Log(Config.code200);
+                StartCoroutine(Authorization(logtxt));
+            }
+            else if(reg.code == 405)
+            {
+                Debug.Log(Config.code405);
+            }
+            else if(reg.code == 404)
+            {
+                Debug.Log(Config.code404);
+            }
+        }
     }
-
-    
-
-    /*
-    IEnumerator Img()
+    IEnumerator Authorization(string name)
     {
-        //Texture2D texture = profileImage.canvasRenderer.GetMaterial().mainTexture as Texture2D;
-        var request = UnityWebRequestTexture.GetTexture("https://pp.userapi.com/c841023/v841023649/761a/0TLleJA7dSk.jpg");
-        yield return request.SendWebRequest();
-        Texture2D response = (DownloadHandlerTexture.GetContent(request));
-        print(request);
-        GameObject go = new GameObject("image");
-        Sprite sp = Sprite.Create(response, new Rect(0, 0, response.width, response.height), Vector2.zero);
-        go.AddComponent<Image>().sprite = sp;
-        go.Equals(enabled);
-        request.Dispose();
+        AthorizationGO.SetActive(false);
+        MenuGO.SetActive(true);
+        nameTxt.text = name;
+        yield return null;
     }
-    */
 }
 
-public class Users
+[System.Serializable]
+public struct LoginUser
 {
-    public int id;
-    public string name;
-    public string admin;
+    public int code;
 }
