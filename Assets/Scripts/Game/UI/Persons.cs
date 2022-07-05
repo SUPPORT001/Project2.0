@@ -8,10 +8,10 @@ public class Persons : MonoBehaviour
     private GameObject personsGO;
     bool side;
     string activePerson;
-    
+
     void Start()
     {
-   
+
 
 
 
@@ -21,7 +21,7 @@ public class Persons : MonoBehaviour
 
     void Update()
     {
-       
+
     }
     public void shoosePersonStr(string str) //Для кнопок
     {
@@ -35,8 +35,8 @@ public class Persons : MonoBehaviour
         {
             case "knight":
                 CripStat.Knight knight = new CripStat.Knight();
-                spawnPerson(persons[0], knight.moneyCost,side);
-                
+                spawnPerson(persons[0], knight.moneyCost, side);
+
                 break;
             case "archer":
                 CripStat.Archer archer = new CripStat.Archer();
@@ -53,7 +53,7 @@ public class Persons : MonoBehaviour
             case "Tank":
                 CripStat.Tank tank = new CripStat.Tank();
                 spawnPerson(persons[4], tank.moneyCost, side);
-              
+
                 break;
         }
     }
@@ -65,12 +65,15 @@ public class Persons : MonoBehaviour
             GameObject GO2 = new GameObject();
             if (side)
             {
-                 GO2 = Instantiate(GO, spawner[0].transform.position, new Quaternion(0, 0, 0, 0), personsGO.GetComponent<Transform>());
+                GO2 = Instantiate(GO, spawner[0].transform.position, new Quaternion(0, 0, 0, 0), personsGO.GetComponent<Transform>());
 
             }
-            else  GO2 = Instantiate(GO, spawner[1].transform.position, new Quaternion(0, 0, 0, 0), personsGO.GetComponent<Transform>());
+            else
+            {
+                GO2 = Instantiate(GO, spawner[1].transform.position, new Quaternion(0, 0, 0, 0), personsGO.GetComponent<Transform>());
                 GO2.name = GOname;
-                
+                GO2.GetComponent<SpriteRenderer>().flipX = true;
+            }
             GO2.AddComponent<Crip>();
             GO2.GetComponent<Crip>().side = side;
         }

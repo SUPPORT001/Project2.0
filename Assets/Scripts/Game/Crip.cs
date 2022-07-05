@@ -79,7 +79,7 @@ public class Crip : MonoBehaviour
                 moneyCost = tank.moneyCost;
                 break;
         }
-        Debug.Log(name);
+       
     }
 
 
