@@ -15003,10 +15003,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1048049077}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
   <<<<<<< Updated upstream
 >>>>>>> parent of 041e0ab (Merge branch 'master' of https://github.com/SUPPORT001/Project2.0)
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of a9ec4c2 (Revert "32")
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
 =======
@@ -15020,10 +15024,14 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
   <<<<<<< Updated upstream
 >>>>>>> parent of 041e0ab (Merge branch 'master' of https://github.com/SUPPORT001/Project2.0)
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of a9ec4c2 (Revert "32")
 --- !u!114 &1048049073
 MonoBehaviour:
   m_ObjectHideFlags: 0
