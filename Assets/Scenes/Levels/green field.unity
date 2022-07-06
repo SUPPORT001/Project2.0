@@ -15002,7 +15002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048049077}
-<<<<<<< Updated upstream
+  <<<<<<< Updated upstream
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
 =======
@@ -15015,7 +15015,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
+  <<<<<<< Updated upstream
 --- !u!114 &1048049073
 MonoBehaviour:
   m_ObjectHideFlags: 0

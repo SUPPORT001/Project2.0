@@ -32,4 +32,18 @@ public class CripController : MonoBehaviourPunCallbacks, IPunObservable
             transform.position += Vector3.left * (GetComponent<Crip>().speed * 0.2f) * Time.deltaTime;
         }
     }
+
+    private void fight()
+    {
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        
+    }
 }

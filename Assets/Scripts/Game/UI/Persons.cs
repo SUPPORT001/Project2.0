@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Photon.Pun;
 
 public class Persons : MonoBehaviourPunCallbacks
 {
@@ -103,7 +102,7 @@ public class Persons : MonoBehaviourPunCallbacks
     }
     void spawnPerson(GameObject GO, int price, Crip crip)
     {
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && score.moneyP1 >= price)
         {
             if (Config.indexPlayer == 0 && score.moneyP1 >= price)
             {
@@ -114,7 +113,7 @@ public class Persons : MonoBehaviourPunCallbacks
                 GO2.GetComponent<Crip>().Gett(crip);
                 score.moneyP1 -= price;
             }
-            else if (Config.indexPlayer == 0 && score.moneyP2 >= price)
+            else
             {
                 GameObject GO2 = PhotonNetwork.Instantiate(crip.name, spawner[1].transform.position, Quaternion.identity);
                 GO2.transform.SetParent(personsGO.transform);
