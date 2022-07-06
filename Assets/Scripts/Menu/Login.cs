@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -41,9 +40,7 @@ public class Login : MonoBehaviour
     {
         if(Check())
         {
-            //StartCoroutine(getUsers());
             StartCoroutine(loginUsers());
-            //StartCoroutine(createjson());
         }
     }
     public void registration_click()
@@ -57,20 +54,6 @@ public class Login : MonoBehaviour
     {
         Application.Quit();
     }
-
-    //IEnumerator getUsers()
-    //{
-    //    //WWWForm form = new WWWForm();
-    //    using (UnityWebRequest www = UnityWebRequest.Get(Config.pathGetUsers))
-    //    {
-    //        yield return www.SendWebRequest();
-    //        string json = www.downloadHandler.text;
-    //        Json _json = new Json();
-    //        _json = JsonUtility.FromJson<Json>(json);
-    //        Debug.Log("json = " + json);
-    //        Debug.Log(_json.users);
-    //    }
-    //}
     IEnumerator loginUsers()
     {
         string path = Config.pathLoginUsers + "?";
