@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7976951353585958543}
   - component: {fileID: 8764074860102617432}
   - component: {fileID: 6596773340982788352}
-  - component: {fileID: -617772819310974446}
   - component: {fileID: -6749416643251024956}
   - component: {fileID: -777455328237599570}
   - component: {fileID: 5516577783827288510}
@@ -112,8 +111,9 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 8764074860102617432}
-  - {fileID: -617772819310974446}
+  - {fileID: 0}
   - {fileID: -777455328237599570}
+  - {fileID: 969671979694868271}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -153,18 +153,6 @@ MonoBehaviour:
   distant: 0
   typeAttack: 
   moneyCost: 0
---- !u!114 &-617772819310974446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3072784589493027450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 789218df1fb398244b50b0afa004d570, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &-6749416643251024956
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -213,8 +201,9 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 8764074860102617432}
-  - {fileID: -617772819310974446}
+  - {fileID: 0}
   - {fileID: -777455328237599570}
+  - {fileID: 969671979694868271}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
