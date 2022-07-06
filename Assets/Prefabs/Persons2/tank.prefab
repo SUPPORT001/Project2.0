@@ -95,9 +95,12 @@ GameObject:
   - component: {fileID: 5843395895097241466}
   - component: {fileID: 2151092486854293845}
   - component: {fileID: -4770443487891147899}
+<<<<<<< HEAD
   - component: {fileID: -4092792371949450321}
   - component: {fileID: 9094198957917593735}
   - component: {fileID: 6948573217044818069}
+=======
+>>>>>>> parent of 7c6e87b (1)
   m_Layer: 0
   m_Name: tank
   m_TagString: Untagged
@@ -193,6 +196,7 @@ MonoBehaviour:
   distant: 0
   typeAttack: 
   moneyCost: 0
+<<<<<<< HEAD
 --- !u!114 &-4092792371949450321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,3 +248,5 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+=======
+>>>>>>> parent of 7c6e87b (1)

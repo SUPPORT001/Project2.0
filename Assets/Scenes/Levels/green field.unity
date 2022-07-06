@@ -13554,12 +13554,15 @@ RectTransform:
   - {fileID: 481284116}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - {fileID: 592736617}
 >>>>>>> parent of 6125cf4 (32)
 =======
   - {fileID: 592736617}
 >>>>>>> parent of 6125cf4 (32)
+=======
+>>>>>>> parent of 7c6e87b (1)
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14909,6 +14912,7 @@ GameObject:
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
   - component: {fileID: 1048049074}
+<<<<<<< HEAD
 =======
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
@@ -14917,6 +14921,8 @@ GameObject:
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
 >>>>>>> parent of 6125cf4 (32)
+=======
+>>>>>>> parent of 7c6e87b (1)
   - component: {fileID: 1048049076}
   m_Layer: 0
   m_Name: Game
@@ -14975,6 +14981,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 7c6e87b (1)
 --- !u!114 &1048049074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14991,10 +15000,13 @@ MonoBehaviour:
   - {fileID: 2884573254706267037, guid: 9744b2c913e828a43b60a75373895077, type: 3}
   - {fileID: 6184018504845500629, guid: 96fd3d8ddab4b9b40ab6509bd2f4732c, type: 3}
   activeTower: 
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6125cf4 (32)
 =======
 >>>>>>> parent of 6125cf4 (32)
+=======
+>>>>>>> parent of 7c6e87b (1)
 --- !u!114 &1048049076
 MonoBehaviour:
   m_ObjectHideFlags: 0

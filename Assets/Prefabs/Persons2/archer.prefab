@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 7483233400125574633}
   - component: {fileID: 8809162816602980667}
   - component: {fileID: -4462428269541030398}
+<<<<<<< HEAD
   - component: {fileID: 7327082086175854234}
   - component: {fileID: -7466445230702241281}
   - component: {fileID: -4762105461507021524}
+=======
+>>>>>>> parent of 7c6e87b (1)
   m_Layer: 0
   m_Name: archer
   m_TagString: Untagged
@@ -109,6 +112,7 @@ MonoBehaviour:
   distant: 0
   typeAttack: 
   moneyCost: 0
+<<<<<<< HEAD
 --- !u!114 &7327082086175854234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789218df1fb398244b50b0afa004d570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of 7c6e87b (1)
 --- !u!1 &2201866654494947999
 GameObject:
   m_ObjectHideFlags: 0

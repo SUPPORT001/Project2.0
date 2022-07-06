@@ -95,9 +95,12 @@ GameObject:
   - component: {fileID: 7254846008752052825}
   - component: {fileID: 1984254803773395638}
   - component: {fileID: -1233673003655931405}
+<<<<<<< HEAD
   - component: {fileID: 1408974512346163578}
   - component: {fileID: -4766733346354647119}
   - component: {fileID: -690634439276442079}
+=======
+>>>>>>> parent of 7c6e87b (1)
   m_Layer: 0
   m_Name: knight
   m_TagString: Untagged
@@ -193,6 +196,7 @@ MonoBehaviour:
   distant: 0
   typeAttack: 
   moneyCost: 0
+<<<<<<< HEAD
 --- !u!114 &1408974512346163578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,3 +248,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789218df1fb398244b50b0afa004d570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of 7c6e87b (1)
