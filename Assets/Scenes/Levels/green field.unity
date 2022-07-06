@@ -15002,7 +15002,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048049077}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+  <<<<<<< Updated upstream
+>>>>>>> parent of 041e0ab (Merge branch 'master' of https://github.com/SUPPORT001/Project2.0)
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
 =======
@@ -15015,7 +15019,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+  <<<<<<< Updated upstream
+>>>>>>> parent of 041e0ab (Merge branch 'master' of https://github.com/SUPPORT001/Project2.0)
 --- !u!114 &1048049073
 MonoBehaviour:
   m_ObjectHideFlags: 0
