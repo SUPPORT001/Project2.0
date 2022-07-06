@@ -103,6 +103,7 @@ public class Persons : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (Config.indexPlayer == 0)
 =======
 =======
@@ -111,6 +112,9 @@ public class Persons : MonoBehaviour
 >>>>>>> parent of 6125cf4 (32)
             if (Config.indexPlayer == 0 && score.moneyP1 >= price)
 >>>>>>> parent of 6125cf4 (32)
+=======
+            if (Config.indexPlayer == 0)
+>>>>>>> parent of 209deef (не большое изменение Persons)
             {
                 GO2 = Instantiate(GO, spawner[0].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
                 GO2.tag = "BlueCrip";
