@@ -104,8 +104,11 @@ public class Persons : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (Config.indexPlayer == 0)
 =======
+=======
+>>>>>>> parent of 6125cf4 (32)
 =======
 >>>>>>> parent of 6125cf4 (32)
 =======

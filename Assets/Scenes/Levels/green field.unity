@@ -13557,6 +13557,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1867d4d (откат)
 =======
@@ -13572,6 +13573,9 @@ RectTransform:
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 1867d4d (откат)
+=======
+  - {fileID: 592736617}
+>>>>>>> parent of 6125cf4 (32)
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14896,6 +14900,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
   <<<<<<< Updated upstream
@@ -14941,6 +14946,10 @@ GameObject:
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 1867d4d (откат)
+=======
+  - component: {fileID: 1048049078}
+  - component: {fileID: 1048049073}
+>>>>>>> parent of 6125cf4 (32)
   - component: {fileID: 1048049076}
   m_Layer: 0
   m_Name: Game
@@ -14949,6 +14958,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14985,6 +14995,8 @@ GameObject:
 >>>>>>> parent of 6125cf4 (32)
 =======
 >>>>>>> parent of 6125cf4 (32)
+=======
+>>>>>>> parent of 6125cf4 (32)
 --- !u!114 &1048049073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14997,6 +15009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b59ca7e9b68bb5a41941f24bc27b312a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15040,6 +15053,8 @@ MonoBehaviour:
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 1867d4d (откат)
+=======
+>>>>>>> parent of 6125cf4 (32)
 --- !u!114 &1048049076
 MonoBehaviour:
   m_ObjectHideFlags: 0
