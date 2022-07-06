@@ -13556,16 +13556,22 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1867d4d (откат)
 =======
   - {fileID: 592736617}
 >>>>>>> parent of 6125cf4 (32)
 =======
   - {fileID: 592736617}
 >>>>>>> parent of 6125cf4 (32)
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 7c6e87b (1)
+=======
+>>>>>>> parent of 1867d4d (откат)
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14917,6 +14923,9 @@ GameObject:
   - component: {fileID: 1048049074}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1867d4d (откат)
 =======
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
@@ -14925,10 +14934,13 @@ GameObject:
   - component: {fileID: 1048049078}
   - component: {fileID: 1048049073}
 >>>>>>> parent of 6125cf4 (32)
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 7c6e87b (1)
+=======
+>>>>>>> parent of 1867d4d (откат)
   - component: {fileID: 1048049076}
   m_Layer: 0
   m_Name: Game
@@ -14989,10 +15001,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 7c6e87b (1)
+=======
+>>>>>>> parent of 1867d4d (откат)
 --- !u!114 &1048049074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15011,14 +15026,20 @@ MonoBehaviour:
   activeTower: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1867d4d (откат)
 =======
 >>>>>>> parent of 6125cf4 (32)
 =======
 >>>>>>> parent of 6125cf4 (32)
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 7c6e87b (1)
+=======
+>>>>>>> parent of 1867d4d (откат)
 --- !u!114 &1048049076
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 2200366244838932071}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: -1716785949328374497}
   - component: {fileID: -581880996374452398}
   - component: {fileID: 2237589710353907238}
@@ -104,6 +105,11 @@ GameObject:
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 7c6e87b (1)
+=======
+  - component: {fileID: -1716785949328374497}
+  - component: {fileID: -581880996374452398}
+  - component: {fileID: 2237589710353907238}
+>>>>>>> parent of 1867d4d (откат)
   m_Layer: 0
   m_Name: wizard
   m_TagString: Untagged
@@ -201,6 +207,9 @@ MonoBehaviour:
   moneyCost: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1867d4d (откат)
 --- !u!114 &-1716785949328374497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,7 +261,10 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c6e87b (1)
 =======
 >>>>>>> parent of 7c6e87b (1)
+=======
+>>>>>>> parent of 1867d4d (откат)
