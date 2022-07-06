@@ -14963,6 +14963,11 @@ MonoBehaviour:
   - {fileID: 1099803738}
   BlueCrips: []
   RedCrips: []
+  PrefabKnight: {fileID: 0}
+  PrefabArcher: {fileID: 0}
+  PrefabWizard: {fileID: 0}
+  PrefabRex: {fileID: 0}
+  PrefabTank: {fileID: 0}
 --- !u!4 &1048049077
 Transform:
   m_ObjectHideFlags: 0
