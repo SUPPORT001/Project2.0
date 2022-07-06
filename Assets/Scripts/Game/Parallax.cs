@@ -9,14 +9,14 @@ public class Parallax : MonoBehaviour
 
     void Start()
     {
-        startPos = transform.position.x;
-        length = GetComponent<SpriteRenderer>().bounds.size.x;
+        startPos = transform.position.x; //Стратовая позиция по х
+        length = GetComponent<SpriteRenderer>().bounds.size.x; //Позиция границы по Х
     }
 
     void Update()
     {
-        float temp = camera.transform.position.x * (1 - parallaxEffect);
-        float dist = camera.transform.position.x * parallaxEffect;
+        float temp = camera.transform.position.x * (1 - parallaxEffect); //Скорость эффекта
+        float dist = camera.transform.position.x * parallaxEffect;//Дистанция от камеры
 
         transform.position = new Vector3(startPos + dist, transform.position.y, transform.position.z);
 

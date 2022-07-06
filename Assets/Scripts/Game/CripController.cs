@@ -8,7 +8,7 @@ public class CripController : MonoBehaviourPunCallbacks, IPunObservable
     private PhotonView photonView;
     private SpriteRenderer spriteRenderer;
 
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) 
     {
         
     }

@@ -4,16 +4,16 @@ using Photon.Pun;
 
 public class Persons : MonoBehaviourPunCallbacks
 {
-    public List<GameObject> persons = new List<GameObject>();
-    public List<GameObject> spawner = new List<GameObject>();
-    private GameObject personsGO;
+    public List<GameObject> persons = new List<GameObject>(); // Игровые персонажи
+    public List<GameObject> spawner = new List<GameObject>(); 
+    private GameObject personsGO; //Меню персонажей
 
     string activePerson;
 
-    public List<GameObject> BlueCrips = new List<GameObject>();
+    public List<GameObject> BlueCrips = new List<GameObject>(); // Команды персонажей
     public List<GameObject> RedCrips = new List<GameObject>();
 
-    public GameObject PrefabKnight;
+    public GameObject PrefabKnight; //  Префабы персонажей
     public GameObject PrefabArcher;
     public GameObject PrefabWizard;
     public GameObject PrefabRex;
@@ -28,7 +28,7 @@ public class Persons : MonoBehaviourPunCallbacks
     {
 
     }
-    public void shoosePersonStr(string str) //Для кнопок
+    public void shoosePersonStr(string str) //Используется для выбора персонажа из меню
     {
         activePerson = str;
         choosePerson();
@@ -37,7 +37,7 @@ public class Persons : MonoBehaviourPunCallbacks
     {
         if(activePerson == "knight")
         {
-            Crip crip = new Crip(
+            Crip crip = new Crip( // Заносит свойства в префабы персонажей из скрипта crip
                     PrefabKnight.name,
                     ConfigCrip.knight_HP,
                     ConfigCrip.knight_speed,
@@ -101,13 +101,13 @@ public class Persons : MonoBehaviourPunCallbacks
             spawnPerson(persons[4], crip.moneyCost, crip);
         }
     }
-    void spawnPerson(GameObject GO, int price, Crip crip)
+    void spawnPerson(GameObject GO, int price, Crip crip) // Функция для спавна персонажей
     {
         if (Input.GetMouseButtonUp(0) && score.moneyP1 >= price)
         {
-            if (Config.indexPlayer == 0 && score.moneyP1 >= price)
+            if (Config.indexPlayer == 0 && score.moneyP1 >= price) //Определаяет сторону, и возможность покупки персонажа
             {
-                GameObject GO2 = PhotonNetwork.Instantiate(crip.name, spawner[0].transform.position, Quaternion.identity);
+                GameObject GO2 = PhotonNetwork.Instantiate(crip.name, spawner[0].transform.position, Quaternion.identity);//Спавн и превязка к серверу
                 GO2.transform.SetParent(personsGO.transform);
                 GO2.tag = "BlueCrip";
                 BlueCrips.Add(GO2);
