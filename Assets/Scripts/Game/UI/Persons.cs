@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class Persons : MonoBehaviour
 {
@@ -96,18 +97,18 @@ public class Persons : MonoBehaviour
     }
     void spawnPerson(GameObject GO, int price, Crip crip)
     {
-        if (Input.GetMouseButtonUp(0) && score.moneyP1 >= price)
+        if (Input.GetMouseButtonUp(0))
         {
             string GOname = GO.name;
             GameObject GO2;
-            if (Config.indexPlayer == 0)
+            if (Config.indexPlayer == 0 && score.moneyP1 >= price)
             {
                 GO2 = Instantiate(GO, spawner[0].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
                 GO2.tag = "BlueCrip";
                 BlueCrips.Add(GO2);
                 GO2.GetComponent<Crip>().Gett(crip);
             }
-            else
+            else if (Config.indexPlayer == 0 && score.moneyP2 >= price)
             {
                 GO2 = Instantiate(GO, spawner[1].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
                 GO2.GetComponent<SpriteRenderer>().flipX = true;
