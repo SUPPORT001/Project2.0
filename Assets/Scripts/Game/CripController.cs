@@ -10,7 +10,7 @@ public class CripController : MonoBehaviourPunCallbacks, IPunObservable
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Start()
@@ -25,11 +25,11 @@ public class CripController : MonoBehaviourPunCallbacks, IPunObservable
 
         if (Config.indexPlayer == 0)
         {
-            transform.position += Vector3.right * 3f * Time.deltaTime;
+            transform.position += Vector3.right * (GetComponent<Crip>().speed * 0.2f) * Time.deltaTime;
         }
         else
         {
-            transform.position += Vector3.left * 3f * Time.deltaTime;
+            transform.position += Vector3.left * (GetComponent<Crip>().speed * 0.2f) * Time.deltaTime;
         }
     }
 }

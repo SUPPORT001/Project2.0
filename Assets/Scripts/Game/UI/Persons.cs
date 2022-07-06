@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class Persons : MonoBehaviour
+public class Persons : MonoBehaviourPunCallbacks
 {
     public List<GameObject> persons = new List<GameObject>();
     public List<GameObject> spawner = new List<GameObject>();
@@ -12,6 +12,12 @@ public class Persons : MonoBehaviour
 
     public List<GameObject> BlueCrips = new List<GameObject>();
     public List<GameObject> RedCrips = new List<GameObject>();
+
+    public GameObject PrefabKnight;
+    public GameObject PrefabArcher;
+    public GameObject PrefabWizard;
+    public GameObject PrefabRex;
+    public GameObject PrefabTank;
 
     void Start()
     {
@@ -32,7 +38,7 @@ public class Persons : MonoBehaviour
         if(activePerson == "knight")
         {
             Crip crip = new Crip(
-                    ConfigCrip.knight_name,
+                    PrefabKnight.name,
                     ConfigCrip.knight_HP,
                     ConfigCrip.knight_speed,
                     ConfigCrip.knight_ATK,
@@ -45,7 +51,7 @@ public class Persons : MonoBehaviour
         else if(activePerson == "archer")
         {
             Crip crip = new Crip(
-                    ConfigCrip.archer_name,
+                    PrefabKnight.name,
                     ConfigCrip.archer_HP,
                     ConfigCrip.archer_speed,
                     ConfigCrip.archer_ATK,
@@ -58,7 +64,7 @@ public class Persons : MonoBehaviour
         else if(activePerson == "wizard")
         {
             Crip crip = new Crip(
-                    ConfigCrip.wizard_name,
+                    PrefabWizard.name,
                     ConfigCrip.wizard_HP,
                     ConfigCrip.wizard_speed,
                     ConfigCrip.wizard_ATK,
@@ -71,7 +77,7 @@ public class Persons : MonoBehaviour
         else if(activePerson == "rex")
         {
             Crip crip = new Crip(
-                    ConfigCrip.rex_name,
+                    PrefabRex.name,
                     ConfigCrip.rex_HP,
                     ConfigCrip.rex_speed,
                     ConfigCrip.rex_ATK,
@@ -84,7 +90,7 @@ public class Persons : MonoBehaviour
         else if(activePerson == "Tank")
         {
             Crip crip = new Crip(
-                    ConfigCrip.tank_name,
+                    PrefabTank.name,
                     ConfigCrip.tank_HP,
                     ConfigCrip.tank_speed,
                     ConfigCrip.tank_ATK,
@@ -99,22 +105,24 @@ public class Persons : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
-            string GOname = GO.name;
-            GameObject GO2;
             if (Config.indexPlayer == 0 && score.moneyP1 >= price)
             {
-                GO2 = Instantiate(GO, spawner[0].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
+                GameObject GO2 = PhotonNetwork.Instantiate(crip.name, spawner[0].transform.position, Quaternion.identity);
+                GO2.transform.SetParent(personsGO.transform);
                 GO2.tag = "BlueCrip";
                 BlueCrips.Add(GO2);
                 GO2.GetComponent<Crip>().Gett(crip);
+                score.moneyP1 -= price;
             }
             else if (Config.indexPlayer == 0 && score.moneyP2 >= price)
             {
-                GO2 = Instantiate(GO, spawner[1].transform.position, Quaternion.identity, personsGO.GetComponent<Transform>());
+                GameObject GO2 = PhotonNetwork.Instantiate(crip.name, spawner[1].transform.position, Quaternion.identity);
+                GO2.transform.SetParent(personsGO.transform);
                 GO2.GetComponent<SpriteRenderer>().flipX = true;
                 GO2.tag = "RedCrip";
                 RedCrips.Add(GO2);
                 GO2.GetComponent<Crip>().Gett(crip);
+                score.moneyP2 -= price;
             }
         }
     }
