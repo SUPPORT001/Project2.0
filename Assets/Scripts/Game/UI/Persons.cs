@@ -102,8 +102,11 @@ public class Persons : MonoBehaviour
             GameObject GO2;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (Config.indexPlayer == 0)
 =======
+=======
+>>>>>>> parent of 6125cf4 (32)
 =======
 >>>>>>> parent of 6125cf4 (32)
             if (Config.indexPlayer == 0 && score.moneyP1 >= price)
